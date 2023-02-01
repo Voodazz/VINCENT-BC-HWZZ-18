@@ -2,9 +2,9 @@ body,html{margin:0;}
 body, p {font-family: 'Poppins', sans-serif;}
 body.case-study{background:#f4f9f9;}
 html {
-	scroll-behavior: smooth; 
-} 
-   
+	scroll-behavior: smooth;
+}
+  
 h1 {
     text-align: center;
     font-size: 64px;
@@ -168,7 +168,7 @@ header.mainHeader {
 
 .myWorkPic1 img {
     width: 90%;
-    display: block;
+    display: block; 
     margin: auto;
 }
 
@@ -178,13 +178,13 @@ header.mainHeader {
     font-weight: 500;
     margin: 0 0 0 0;
 }
-
+ 
 .myWork p {
-    text-align: center;
+    text-align: left;
     font-size: 16px;
-    margin: 8px 0 8px 0;
+    margin: 0px 0 8px 0;  
     padding: 0;
-    line-height: 36px;
+    line-height: 32px;  
 }
 ul.projectDetails li {
     font-weight: 500;
@@ -290,11 +290,11 @@ section.aboutMe {
     transition: ease all .25s;
 }
 
-.aboutMeTxt {
+.aboutMeTxt { 
     width: 80%;
     padding: 0 0 0 6em;
     box-sizing: border-box;
-    font-size: 1.25em;
+    font-size: 16px;
     transition: ease all .25s;
     line-height: 1.75em;
 }
@@ -447,8 +447,9 @@ footer.footerContainer {
 .case-study-pageWrapper3{background:#EEB4A2;}
 .case-study-pageWrapper3 p {
     text-align: left;
-    font-size: 24px;
-}
+    font-size: 18px;
+    line-height: 32px;
+} 
 
 
 
@@ -457,7 +458,7 @@ footer.footerContainer {
 section.case-study-innerHeader {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
+    width: 90%;
     margin: 0 0 0 1em;
     align-items: center;
     font-weight: normal;
@@ -605,7 +606,7 @@ section.case-study-innerHeader {
     .case-study-intro li {
         list-style-type: none;
         padding: 0 0 8px 0;
-        font-size: 24px;
+        font-size: 18px;
         color:#333;
     }
 
@@ -700,8 +701,8 @@ section.case-study-innerHeader {
     }
     .case-study-pageWrapper2 {
         color: #333;
-        font-size: 24px;
-    }
+        font-size: 18px;
+    } 
     
     .pageWrapper2 h1 {
         text-align: center;
@@ -777,7 +778,10 @@ section.case-study-innerHeader {
         width: 100%;
         display:block;
         margin: auto;
+        margin-top: 3em;
     }
+
+    
     
     #cef7e7
     .H-chart {
@@ -1012,11 +1016,7 @@ img.logo {
     width: 50px;
     height: 100%;
     }
-    section.case-study-innerHeader {
 
-        width: 100%;
-    
-    }
 }
 
 
@@ -1107,6 +1107,48 @@ img.logo {
         width: 83%;
     }
 
+    .case-study-myWorkPic1 {
+        width: 100%;
+       
+    }
+
+    h2.case-study-header2 {
+        
+        font-size: 40px;
+     
+        line-height: 48px;
+    }
+
+    .stepsBlock {
+        grid-column: span 1;
+    }
+
+    .stepsBlock {
+       
+        width: 100%;
+     
+    }
+    img.interviewProfile {
+        width: 100%;
+       
+    }
+
+    .case-study-upperBlock-block p {
+      
+        width: 100%!important;
+    }
+    .case-study-upperBlock, .case-study-upperBlock-block {
+      
+        margin-left: 1em;
+       
+    }
+
+    section.case-study-innerHeader {
+
+        width: 60%;
+    
+    }
+
 }
 @media (max-width: 500px){
 ul.projectDetails2 li::before {
@@ -1127,6 +1169,27 @@ ul.projectDetails2 li::before {
 }
 ul.projectDetails2 li{
     margin:0;
+}
+
+.case-study-heroBlurb {
+    top: 50%;
+    -ms-transform: translateY(14%);
+    transform: translateY(50%);
+}
+h1.case-study-headerBody {
+    color: #fff;
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 48px;
+    line-height: 56px;
+}
+ul.case-study-projectDetails {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 0 0 16px;
+    margin: 16px 0 0 0;
 }
 }
 
